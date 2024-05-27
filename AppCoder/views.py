@@ -14,20 +14,20 @@ from AppCoder import models
 
 def inicio(req):
 
-    return HttpResponse("Vista Inicio")
+    return render(req,"AppCoder/inicio.html")
 
 def cursos(req):
 
-    return HttpResponse("Vista cursos")
+    return render(req,"AppCoder/cursos.html")
 
 def profesores(req):
 
-    return HttpResponse("Vista profesores")
+    return render(req,"AppCoder/profesores.html")
 
 def estudiantes(req):
 
-    return HttpResponse("Vista estudiantes")
+    return render(req,"AppCoder/estudiantes.html")
 
 def entregables(req):
 
-    return HttpResponse("Vista entregables")
+    return render(req,"AppCoder/entregables.html")

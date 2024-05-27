@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Pruebas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['D:\\DESARROLLADOR\\PYTHON\\CoderHouse\\Django_pruebas\\AppCoder\\templates\\AppCoder'],
+        'DIRS': ['D:\\DESARROLLADOR\\PYTHON\\CoderHouse\\Django_pruebas\\AppCoder\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
