@@ -6,6 +6,9 @@ class Curso(models.Model):
     nombre= models.CharField(max_length=40)
     camada= models.IntegerField()
 
+    def __str__(self) -> str:
+        return f"{self.nombre} - {self.camada}"
+
 
 class Estudiante(models.Model):
 

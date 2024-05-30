@@ -1,0 +1,29 @@
+{% extends 'AppCoder/padre.html' %}
+    {% load static %}
+
+    
+    {% block contenido_cambia %}
+
+    <p> Buscamos los curos con la camada {{camada}}</p>
+
+    <ul>
+
+
+        {% for curso in cursos %}
+
+            <li>
+                 {{curso.nombre}} - {{curso.camada}}
+
+            </li>
+            
+        {% endfor %}
+            
+
+
+    </ul>
+    
+
+    
+
+    {% endblock contenido_cambia %}
+        
